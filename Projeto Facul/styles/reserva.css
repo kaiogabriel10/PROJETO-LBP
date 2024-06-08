@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Kolle;
+    src: url(/font/Kollektif-BoldItalic.ttf) format("truetype");
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color:#f5eadd;
+}
+#header{
+    background-color: #011d34;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ec9327;
+}
+
+.logo{
+    color:#ec9327;
+    font-family: Kolle;
+}
+
+#menu{
+    height: 100%;
+    width: 200px;
+    background-color: #AB7535;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+#menu  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu  li{
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#menu li:hover{
+    background-color:#90560e;
+}
+
+#nome_pag{
+    padding-left:25px;
+    padding-top: 50px;
+    margin-left: 40px;
+    font-family: Kolle;
+}
+
+#bloco_reserva{
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+#bloco1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Kolle;
+}
+#Nome_Cliente{
+    background-color: rgb(157, 157, 157);
+    border:none;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#bloco2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Kolle;
+}
+#Numero_Clientes{
+    background-color: rgb(157, 157, 157);
+    border:none;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+#bloco3{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    font-family: Kolle;
+}
+#Horarios{
+    background-color: rgb(157, 157, 157);
+    border:none;
+    height: 35px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+#reserva_true{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Kolle;
+    background-color:#90560e;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+#reserva_true:hover{
+    background-color:#ec9327;
+    transition: 0.5s;
+}
+
+#footer_reservation{ 
+    margin-top: 210px;
+    height: 100%;
+    background-color: #011d34;
+    border-top:2px solid  #AB7535;
+    padding: 20px;
+    list-style-type: none;
+}
+
+#formulario{
+    background-color: #f5ce9d;
+    padding: 20px;
+    width:500px;
+    border-radius:10px ;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="reserva.css">
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+        <a href="index.html">
+            <h1 class="logo">Le Bistrot Parisien</h1>
+        </a>
+        <a href="#"><span class="material-symbols-outlined" onclick="openMenu()">menu</span></a>
+        <menu id="menu">
+            <ul>
+                <a href="">
+                    <li>Cardápio</li>
+                </a>
+                <a href="reserva.html">
+                    <li>Reserva</li>
+                </a>
+            </ul>
+        </menu>
+    </header>
+    <div class="container mt-4">
+        <h2 id="nomePag">Reserva de Horário</h2>
+        <form action="/enviar_dados" method="post">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" class="form-control" id="quantidade" name="quantidade" required>
+            </div>
+            <button type="submit" class="btn btn-primary" id="bt">Reservar</button>
+        </form>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+</html>

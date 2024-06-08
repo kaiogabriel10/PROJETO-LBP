@@ -1,0 +1,109 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Kolle;
+    src: url(/font/Kollektif-BoldItalic.ttf) format("truetype");
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#header{
+    background-color: #011d34;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    color:#ec9327;
+    font-family: Kolle;
+}
+
+#menu{
+    height: 100%;
+    width: 200px;
+    background-color: #AB7535;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+#menu  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu  li{
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#menu li:hover{
+    background-color:#90560e;
+}
+
+
+#section1{
+    background-image: url("/images/Le\ Bistrot\ Parisien.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    border-bottom: 1px solid  #1E1123;
+}
+
+#best{
+    text-align: center;
+    padding: 20px;
+    background-color: #011d34;
+    color: #ec9327;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top:1px solid rgb(182, 182, 247);
+    border-bottom: 1px solid rgb(247, 149, 149);
+}
+
+#section2{
+    background-image: url("/images/fundo2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffe7ca;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    height: 1vh;
+    display: flex;
+    padding:250px;
+    font-family:Kolle;
+    text-align: center;
+}
+
+#card{
+    color: #ffffff;
+    width: 200px;
+}
+
+#card > h1{
+    margin: 10px;
+}
+
+.btn-access-menu{
+    background-color: #ec9327;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.379) 1px 1px 1px 1px;
+}
+#footer_reservation{ 
+    background-color: #011d34;
+    border-top:2px solid  #AB7535;
+    padding: 20px;
+    list-style-type: none;
+}

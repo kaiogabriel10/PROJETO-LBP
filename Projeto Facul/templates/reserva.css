@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Kolle;
+    src: url(/font/Kollektif-BoldItalic.ttf) format("truetype");
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color:#f5eadd;
+    height: 100vh;
+}
+#header{
+    background-color: #011d34;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #ec9327;
+}
+
+.logo{
+    color:#ec9327;
+    font-family: Kolle;
+}
+
+#menu{
+    height: 100%;
+    width: 200px;
+    background-color: #AB7535;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+#menu  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu  li{
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#menu li:hover{
+    background-color:#90560e;
+}
+
+#nomePag{
+    padding-left:25px;
+    padding-top: 25px;
+    margin-left: 40px;
+    font-family: Kolle;
+}
+
+.form-group{
+    padding-left:25px;
+    padding-top: 25px;
+    margin-left: 40px;
+
+    font-family: Kolle;
+}
+
+.form-group > input{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+#bt{
+    margin-left: 65px;
+    margin-top: 15px;
+
+    height: 30px;
+    width: 80px;
+
+    background-color: #AB7535;
+
+    border: 0px 0px 0px;
+    border-color: #011d3400;
+    border-radius: 20px;
+}
+
+#bt:hover{
+    background-color: #ec9327;
+    border-radius: 20px;
+    animation: 0.5s;
+}
